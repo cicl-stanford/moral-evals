@@ -1,0 +1,13 @@
+data_dir: ../data
+severity: mild
+condition: coc
+
+start: 45
+end: 50
+
+random_single_shot: false
+single_shot: 39
+
+n_vars: 50
+
+verbose: true

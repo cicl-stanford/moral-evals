@@ -1,0 +1,18 @@
+ A:1
+
+My reasoning is:
+ A:1
+ A:2
+ A:2
+
+Mei did not intend
+ A:1
+
+My reasoning is:
+ A:2
+ A:2
+ A:2
+
+Diego did not intend
+ A:2
+ A:2

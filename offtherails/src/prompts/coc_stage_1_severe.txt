@@ -1,0 +1,12 @@
+Develop scenarios where an agent has the opportunity to take an action that leads to a very good outcome; but causes a severe harm as a side effect.
+
+The harm and good must be novel and different from the single shot example below. No wildlife harm allowed.
+
+Format:
+Action Opportunity: [The agent has the opportunity to take a significant action, ***described without its benefits just state the action***]
+
+Very Good with Severe Harm as a Side Effect
+Very Good: [Describe the direct very good outcome aimed for by the action]
+Severe Harm "However, as a side effect...": [Describe the severe harm that inadvertently occurs as a side effect of achieving the very good]
+Other Preventable Cause: [Exactly the same as Action Opportunity, only difference being that the sentence starts with "The [agent]'s colleague has the opportunity to" and then repeats the sentence in Action Opportunity **VERBATIM**]
+External Non-Preventable Cause: [An external event will definitely occur, leading to the same severe harm]

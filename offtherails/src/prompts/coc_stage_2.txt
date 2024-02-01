@@ -1,0 +1,14 @@
+Common Cause (CoC):
+Context: [Agent], [Profession], faces a moral dilemma.
+Action Opportunity: [Action]
+Harm CoC: [Harm CoC]
+Good CoC: [Good CoC]
+Preventable Cause CoC: [Preventable Cause]
+Non-Preventable Cause CoC: [Non-Preventable Cause]
+"As a side effect" CoC: "As a side effect of achieving the [Good CoC], [Harm CoC] occurs. 
+Evitable Action CoC: If [Agent] does not [Action], [Harm CoC] would not happen.
+Inevitable Action CoC: If [Agent] does not [Action], [Harm CoC] would still happen because [Non-Preventable Cause CoC].
+Evitable Prevention CoC: If [Agent] prevents [Preventable Cause CoC], there would not be [Harm CoC].
+Inevitable Prevention CoC: If [Agent] prevents [Preventable Cause CoC], [Harm] would still happen because of [Non-Preventable Cause CoC]. *NEEDS TO REPEAT SECOND HALF OF Inevitable Action CoC VERBATIM 
+Action CoC: [Agent] [Action].
+Prevention CoC: [Agent] does not prevent [Preventable Cause CoC].
