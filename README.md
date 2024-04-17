@@ -3,9 +3,7 @@ Procedural Dilemma Generation for Moral Reasoning in Humans and Language Models
 ![Causal Template -> Prompt Template -> Test Items](./assets/template.png)
 
 ### 🧐 What is this?
-This is a supporting repository for our paper titled "Procedural Dilemma Generation for Moral Reasoning in Humans and Language Models". 
-This repository contains the experiments, data, and prompts for the paper
-"[Procedural Dilemma Generation for Moral Reasoning in Humans and Language Models](link)" (2024, _CogSci_).
+This is a supporting repository for our paper "[Procedural Dilemma Generation for Moral Reasoning in Humans and Language Models](link)" (2024, _CogSci_).
 
 - [Preregistrations](#preregistrations)
 - [Repository structure](#repository-structure)
