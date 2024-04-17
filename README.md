@@ -1,17 +1,36 @@
 ##  
-
 Procedural Dilemma Generation for Moral Reasoning in Humans and Language Models
-
 ![Causal Template -> Prompt Template -> Test Items](./assets/template.png)
-
 
 ### 🧐 What is this?
 This is a supporting repository for our paper titled "Procedural Dilemma Generation for Moral Reasoning in Humans and Language Models". 
+This repository contains the experiments, data, and prompts for the paper
+"[Procedural Dilemma Generation for Moral Reasoning in Humans and Language Models](link)" (2024, _CogSci_).
 
-### 🚀 Getting started  
-##### Using miniforge
-1. install miniforge from `https://github.com/conda-forge/miniforge` (eg `Miniforge3-MacOSX-arm64`)
-2. `bash Miniforge3-MacOSX-arm64.sh`
-3. close terminal
-4. `conda create --name name-of-my-env python==3.10`
-5. `pip install -r requirements.txt` 
+- [Preregistrations](#preregistrations)
+- [Repository structure](#repository-structure)
+
+#### Preregistrations
+Preregistrations for all experiments are available on the Open Science Framework (OSF):
+- Experiment 1 - [Good/Harm Judgments](https://osf.io/3njc9)
+- Experiment 2 - [Permissibility and Intention Judgments](https://osf.io/qupxy)
+
+#### Repository structure
+
+```
+├── data
+│   ├── conditions_mild_harm_mild_good (50 scenarios)
+│   ├── conditions_severe_harm_severe_good (10 scenarios, only used in Experiment 1)
+│   └── results
+├── prolific-exp-1
+├── prolific-exp-2
+└── src
+    ├── prompts
+    ├── stage_1.py
+    └── stage_2.py
+```
+
+- `data` contains the conditions `conditions_mild_harm_mild_good` including matched mild harm and mild good outcomes. We used to first 10 scenarios from each condition for our comparison in the paper (80 items). We also include `conditions_severe_harm_severe_good` which includes conditions with matched severe harm and severe good outcomes. 
+    - `results` include model responses including chain-of-thought examples 
+- `prolific-exp-1` and  `prolific-exp-2` include the experimental stimuli and formatted participant data frames (`_long_format.csv`)
+- `src` includes prompts and code (`stage_1.py` and  `stage_2.py`) for generating items.

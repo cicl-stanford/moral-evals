@@ -22,7 +22,6 @@ def get_context(name, profession):
     context = f"{name.strip()}, {article} {profession}, faces a moral dilemma. "
     return context
 
-
 def get_example(names, professions, condition, rand_item, severity):
     """
     Pull a random item from csv file to use as a shot
@@ -47,7 +46,6 @@ def get_example(names, professions, condition, rand_item, severity):
                 
 def get_human_msg(name, profession, note=""):    
     return HumanMessage(content=f"Generate a completion for this context: {get_context(name, profession)} {note}")
-
 
 def gen_chat(args):
     """
@@ -93,8 +91,6 @@ def gen_chat(args):
                     writer = csv.writer(csvfile, delimiter=';')
                     print(vars)
                     writer.writerow(vars)
-def gen_story(args):
-    pass  
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--start', type=int, default=19, help='start index')

@@ -1,7 +1,6 @@
 import os
 import logging
 
-import json
 import random
 import hydra
 from itertools import islice
@@ -38,7 +37,6 @@ def main(args: DictConfig) -> None:
     with(open(f'{args.prompts.prompt_dir}/professions.txt', 'r')) as f: 
         professions = f.readlines()
 
-    
     # main loop
     for i in range(args.data.start, args.data.end):
         

@@ -6,14 +6,12 @@ from typing import (
 
 import asyncio
 
-
 import logging 
-
 
 logging.basicConfig(level=logging.INFO)
 
 
- # The cost per token for each model input.
+# The cost per token for each model input.
 MODEL_COST_PER_INPUT = {
     'gpt-4': 3e-05,
 }
@@ -25,7 +23,7 @@ MODEL_COST_PER_OUTPUT = {
 
 class GPT4Agent():
     """
-    gpt-4 LLM wrapper for async API calls.
+    GPT-4 Wrapper.
     """
     def __init__(
         self, 
@@ -43,10 +41,10 @@ class GPT4Agent():
     ) -> float:
         """
         Args:
-        response (openai.ChatCompletion): The response from the API.
+            response (openai.ChatCompletion): The response from the API.
 
         Returns:
-        float: The cost of the response.
+            float: The cost of the response.
         """
         input_tokens = response.usage.prompt_tokens
         output_tokens = response.usage.completion_tokens
@@ -60,9 +58,7 @@ class GPT4Agent():
         self, 
         messages: List[Dict[str, str]],
     ) -> Any:
-        """
-        Get the response from the model.
-        """
+        """Get the response from the model."""
         print(self.completion_config)
         return await self.llm(messages=messages, **self.completion_config)
     
@@ -91,7 +87,7 @@ class GPT4Agent():
         self, 
         batch_messages: List[List],
     ) -> List[str]:
-        """Handles async API calls for batch prompting.
+        """Batch prompt.
 
         Args:
             system_message (str): The system message to use

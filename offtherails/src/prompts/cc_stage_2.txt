@@ -5,7 +5,7 @@ Harm CC: [Harm CC]
 Good CC: [Good CC]
 Preventable Cause CC: [Preventable Cause]
 Non-Preventable Cause CC: [Non-Preventable Cause]
-"As a means to" CC: "As a means to achieve the [Good CC], [Opportunity] requires [Harm CC]" **Make sure to fully repeat the good and harm here as wont have access to these later.**
+"As a means to" CC: "As a means to achieve the [Good CC], [Opportunity] requires [Harm CC]" *Make sure to fully repeat the good and harm here as wont have access to these later.*
 Evitable Action CC: If [Agent] does not [Action], [Harm CC] would not happen.
 Inevitable Action CC: If [Agent] does not [Action], [Harm CC] would still happen because [Non-Preventable Cause CC].
 Evitable Prevention CC: If [Agent] prevents [Preventable Cause CC], there would not be [Harm CC].

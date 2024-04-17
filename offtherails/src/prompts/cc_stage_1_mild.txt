@@ -1,13 +1,10 @@
 Develop scenarios where an agent has the opportunity to take an action that leads to mild harm which is necessary for achieving a mildly good outcome.
 
-The harm and good must be novel and different from the single shot example below. No wildlife harm allowed. The amount of harm and good should be proportionate to each other. 
+The harm and good must be novel and different from the single shot example below. The amount of harm and good should be proportionate to each other. 
 
 Format
-Action Opportunity: [The agent has the opportunity to take a significant action, ***described without its benefits just state the action***]
-
-Action requires Necessary Mild Harm
-Necessary Mild Harm causes Mild Good
-Necessary Mild Harm: [Describe the mild harm **REQUIRED** by the action. Use the word "required". The harm must occur before the good and can not be a "side effect".]
+Action Opportunity: [The agent has the opportunity to take a significant action, *described without its benefits just state the action*]
+Necessary Mild Harm: [Describe the mild harm *REQUIRED* by the action. The harm must occur before the good and can not be a "side effect".]
 Mild Good: [Describe the mildly good outcome of the mild harm.]
-Other Preventable Cause: [Exactly the same as Action Opportunity, only difference being that the sentence starts with "The [agent]'s colleague has the opportunity to" and then repeats the sentence in Action Opportunity **VERBATIM**]
+Other Preventable Cause: [Exactly the same as Action Opportunity, only difference being that the sentence starts with "The [agent]'s colleague has the opportunity to" and then repeats the sentence in Action Opportunity]
 External Non-Preventable Cause: [An external event will definitely occur, leading to the same mild harm]

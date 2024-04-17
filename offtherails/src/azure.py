@@ -7,11 +7,10 @@ from openai import AsyncAzureOpenAI
 
 class AsyncAzureChatLLM:
     """
-    Wrapper for an (Async) Azure Chat Model.
+    Async Azure Wrapper.
     """
     def __init__(
         self, 
-        api_key: str, 
         azure_endpoint: str, 
         api_version: str, 
         ):
