@@ -18,7 +18,7 @@ async function createTrialPages(condition) {
     let num_trials = 16;
 
     // read stories from a json file
-    let response = await fetch(`batch_${condition}.json`);
+    let response = await fetch(`batch_0.json`);
     let trials = await response.json();
     shuffleArray(trials);
 
