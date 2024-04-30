@@ -32,3 +32,7 @@ Preregistrations for all experiments are available on the Open Science Framework
     - `results` include model responses including chain-of-thought examples 
 - `prolific-exp-1` and  `prolific-exp-2` include the experimental stimuli and formatted participant data frames (`_long_format.csv`)
 - `src` includes prompts and code (`stage_1.py` and  `stage_2.py`) for generating items.
+- `docs` contains all the experiment code. You can preview the experiments below:
+    - Experiment 1 - [Good/Bad](https://cicl-stanford.github.io/responsibility_replacement/experiment1_agent/)
+    - Experiment 2 - [Permissibility/Intention](https://cicl-stanford.github.io/responsibility_replacement/experiment1_agent/),
+
